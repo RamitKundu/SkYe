@@ -28,7 +28,7 @@ export class WeatherComponent implements OnInit {
     if (!navigator.geolocation) {
       alert("GeoLocation not supported in Browser")
     }
-    navigator.geolocation.getCurrentPosition((position: Position) => {
+    /*navigator.geolocation.getCurrentPosition((position: Position) => {
       this.lati = position.coords.latitude;
       this.longi = position.coords.longitude;
       const timer= interval(2000);
@@ -37,11 +37,11 @@ export class WeatherComponent implements OnInit {
       resCall.subscribe((res: any) => {
         console.log(res)
         this.city = res.name;
-        this.temp = res.main.temp - 273.15;
+        this.temp = (res.main.temp - 273.15).toFixed(1);
         this.humidity = res.main.humidity;
 
       })
-    });
+    });*/
 
 
   }
