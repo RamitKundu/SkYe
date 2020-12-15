@@ -1,7 +1,7 @@
 body {
     font-family: 'Indie Flower', cursive;
 	font-size: 100%;
-	/*background-image: url('https://ramitkundu.github.io/SkYe/assets/Img.jpg');*/
+	/*background-image: url('~src/assets/Img.jpg');*/
 }
 
 
@@ -34,7 +34,8 @@ header.masthead {
     position: relative;
     background-color: #343a40;
     height: 100vh;
-    background: url("https://ramitkundu.github.io/assets/Img.jpg") no-repeat center center fixed;
+	background: url("~src/assets/Img.jpg") no-repeat center center fixed;
+	
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -51,7 +52,8 @@ header.masthead .overlay {
     width: 100%;
     top: 0;
 	left: 0;
-    opacity: .3
+	opacity: .3
+	
 }
 
 header.masthead h1 {

@@ -28,7 +28,7 @@ export class WeatherComponent implements OnInit {
     if (!navigator.geolocation) {
       alert("GeoLocation not supported in Browser")
     }
-    navigator.geolocation.getCurrentPosition((position: Position) => {
+   /* navigator.geolocation.getCurrentPosition((position: Position) => {
       this.lati = position.coords.latitude;
       this.longi = position.coords.longitude;
       const timer= interval(2000);
@@ -41,7 +41,7 @@ export class WeatherComponent implements OnInit {
         this.humidity = res.main.humidity;
 
       })
-    });
+    });*/
 
 
   }
