@@ -34,7 +34,7 @@ header.masthead {
     position: relative;
     background-color: #343a40;
     height: 100vh;
-	background: url(~src/assets/Img.jpg) no-repeat center center fixed;
+	background: url(https://images.pexels.com/photos/821054/pexels-photo-821054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed;
 	
     -webkit-background-size: cover;
     -moz-background-size: cover;
